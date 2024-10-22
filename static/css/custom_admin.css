@@ -1,0 +1,87 @@
+/* Estilos para os posts */
+
+body {
+    text-align: center;
+    
+
+}
+
+.post {
+    width: 70rem;
+    margin-left: 300px;    
+    background-color: #3d095e !important;  /* Cor de fundo para os posts */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: #e7f3f9;
+    border: 1px solid #9c0fd4 !important;  /* Cor da borda */
+}
+
+.tg{
+    color: #11041f;
+}
+
+/* Estilos para os títulos dos posts */
+.post h2 {
+    color: #33beff !important;  /* Cor do título */
+    padding: 15px;
+}
+.h {
+    color: #e7ebed;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+/* Estilos para as tags */
+.tag {
+    background-color: #b84c16 !important;  /* Cor de fundo para as tags */
+    color: #FFFFFF !important;  /* Cor do texto das tags */
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* Altera a cor de fundo do cabeçalho */
+#header {
+    background-color: #240e35 !important;  /* Cor desejada */
+}
+
+/* Altera a cor de fundo do branding */
+#branding {
+    background-color: #240e35 !important;  /* Cor desejada */
+}
+
+/* Altera a cor de fundo do body */
+body {
+    background-color: #11041f !important;  /* Cor desejada */
+    font-family: 'Arial', sans-serif !important;  /* Fonte desejada */
+}
+
+/* Altera a cor de fundo dos módulos do dashboard */
+.dashboard-module {
+    background-color: #FFCC00 !important;  /* Nova cor de fundo */
+    color: #e7ebed !important;  /* Cor do texto */
+    border: 1px solid #041204 !important;  /* Cor da borda */
+}
+
+/* Altera a cor dos títulos dos módulos */
+.module h2, .dashboard-module h2 {
+    color: #750498 !important;  /* Cor do título */
+}
+
+/* Altera a cor de fundo dos botões dos módulos */
+.module .button, .dashboard-module .button {
+    background-color: #556e08 !important;  /* Nova cor para botões */
+    color: #FFFFFF !important;  /* Cor do texto dos botões */
+}
+
+/* Altera a cor dos links */
+a {
+    color: #33c5ff !important;  /* Nova cor para links */
+}
+
+/* Altera a cor dos textos em preto */
+.dashboard-module p, .module p, .recent-actions p {
+    color: #ff3336 !important;  /* Nova cor para textos */
+}
